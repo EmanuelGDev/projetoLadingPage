@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: "Inter", sans-serif;
 }
 
 body{
@@ -34,4 +35,78 @@ body{
 .barra1 button img {
   width: 2.25rem;
   height: 2.25rem;
+}
+
+.barra2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 187px;
+}
+
+.logo{
+  margin-right: auto;
+}
+
+.logo img{
+  width: 344px;
+  height: 106px;
+}
+
+.text-box{
+  height: 187px;
+  width: 200px;
+  padding: 0 200px 0 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.text-box :hover{
+  background-color: rgb(179, 166, 166);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 187px;
+  width: 200px;
+  transition-delay: 0.125s;
+  border-radius: 15px;
+}
+
+
+
+
+/*Recursividade */
+
+@media (max-width: 1700px) {
+  .botoesIcones {
+    margin-left: 1200px;
+  }
+}
+@media (max-width: 1500px) {
+  .botoesIcones {
+    margin-left: 1000px;
+  }
+}
+@media (max-width: 1300px) {
+  .botoesIcones {
+    margin-left: 800px;
+  }
+}
+@media (max-width: 1000px) {
+  .botoesIcones {
+    margin-left: 600px;
+  }
+}
+@media (max-width: 800px) {
+  .botoesIcones {
+    margin-left: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .botoesIcones {
+    margin-left: 300px;
+  }
 }
