@@ -85,9 +85,18 @@ body{
   position: absolute;
   height: 772px;
   width: 1665px;
-  filter: blur(0.5px);
 }
 
+.banner1-rectangle {
+  position: absolute;
+  height: 214px;
+  width: 519px;
+  background-color: white;
+  display: relative;
+  border-radius: 10px;
+  margin-left: 1300px;
+  margin-top: 480px;
+}
 
 /*Recursividade */
 
