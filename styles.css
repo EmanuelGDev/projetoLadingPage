@@ -239,7 +239,7 @@ body{
   border-radius: 30px;
   display: flex;
 }
-.video{
+.main-video{
   height: 704px;
   width: 1136px;
   background-color: #1e1e1e;
@@ -251,11 +251,6 @@ body{
   display: flex;
 }
 
-.video img {
-  width: 200px;
-  height: 200px;
-}
-
 .video-pequeno-container{
   height: 704px;
   width: 340px;
@@ -265,7 +260,17 @@ body{
   margin-left: 60px;
 }
 
-.video-pequeno{
+.imgCliente{
+  height: inherit;
+  width: -webkit-fill-available;
+  border-radius: inherit;
+}
+video{
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+.video-thumbnail{
   background-color: #1E1E1E;
   height: 210px;
   width: 350px;
