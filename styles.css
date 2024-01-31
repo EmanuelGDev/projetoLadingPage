@@ -278,6 +278,12 @@ video{
   border-radius: 15px;
 }
 
+.video-thumbnail img {
+  height: 180px;
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
 
 /*Responsividade */
 
