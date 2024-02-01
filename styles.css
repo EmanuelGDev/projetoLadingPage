@@ -278,11 +278,47 @@ video{
   border-radius: 15px;
 }
 
-.video-thumbnail img {
-  height: 180px;
-  width: 300px;
-  margin-left: 25px;
-  margin-top: 15px;
+.wrapper{
+  background: linear-gradient(180deg, #1E1E1E 63.75%, #000000 309.17%);
+  height: 1200px;
+  width: 1920px;
+}
+
+.imgDark{
+  opacity: 7%;
+  position: absolute;
+  width: 1450px;
+  height: 1170px;
+  left: 638px;
+}
+.logo-white img{
+  width: 224px;
+  height: 215px;
+}
+.icon-link img{
+  width: 115px;
+}
+.icon{
+  margin-bottom: 28px;
+}
+.icon-link{
+  margin-top: 158px;
+}
+
+.wrapper-mid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-link a{
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  color: antiquewhite;
+  vertical-align: 50px;
+  text-decoration: none;
+  margin-left: 27px;
 }
 
 /*Responsividade */
