@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const videoNumber = this.getAttribute('data-video');
 
             
-            const videoPath = `/videos/${videoNumber}.mp4`;
+            const videoPath = `videos/${videoNumber}.mp4`;
 
             
             const existingVideo = mainVideo.querySelector('video');
